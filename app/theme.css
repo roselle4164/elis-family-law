@@ -1,0 +1,61 @@
+/* Theme tokens extracted from reference screenshot for consistent reuse. */
+:root {
+  /* Typography */
+  --font-heading: "Adobe Caslon Pro", "Libre Caslon Text", "Times New Roman", serif;
+  --font-body: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+  --font-ui: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Core neutrals */
+  --color-ink-950: #0b1120;
+  --color-ink-900: #0f1524;
+  --color-ink-850: #151c2c;
+  --color-ink-800: #1a2233;
+  --color-ink-700: #2a3345;
+
+  /* Warm light surfaces */
+  --color-paper-50: #f6f1ea;
+  --color-paper-100: #f2ece5;
+  --color-paper-200: #e8ddd1;
+
+  /* Text */
+  --color-text-on-dark: #f4ede5;
+  --color-text-on-light: #2f251b;
+  --color-text-muted-dark: #b8ad9f;
+  --color-text-muted-light: #7b6f63;
+
+  /* Brand accent (gold/copper) */
+  --color-brand-400: #d2ab7f;
+  --color-brand-500: #c19666;
+  --color-brand-600: #ad8458;
+  --color-brand-700: #876746;
+  --color-brand-ink: #3a2818;
+
+  /* Surfaces */
+  --color-hero-overlay: rgba(7, 12, 22, 0.62);
+  --color-card-dark: rgba(24, 33, 49, 0.9);
+  --color-card-dark-border: rgba(190, 167, 132, 0.28);
+  --color-divider-dark: rgba(255, 255, 255, 0.12);
+
+  /* Effects */
+  --shadow-soft-dark: 0 20px 40px rgba(0, 0, 0, 0.35);
+  --shadow-soft-light: 0 10px 30px rgba(15, 21, 36, 0.12);
+  --gradient-deep-navy: radial-gradient(circle at 50% 40%, #0f2247 0%, #0c1428 45%, #090f1d 100%);
+
+  /* Spacing and radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+}
